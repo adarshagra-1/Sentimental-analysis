@@ -6,7 +6,7 @@ import pandas as pd
 model = joblib.load('model/logistic_regression_model.pkl')
 tfidf = joblib.load('model/tfidf_vectorizer.pkl')
 
-# --- APP CONFIG ---
+# APP CONFIG
 st.set_page_config(
     page_title="Sentiment Analysis",
     page_icon="💬",
@@ -14,7 +14,7 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# --- CSS STYLE ---
+# CSS STYLE
 st.markdown(
     """
     <style>
@@ -37,11 +37,11 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-# --- HEADER ---
+# HEADER
 st.title("Sentiment Analysis 💬")
-st.markdown("Analyze sentiments from text or CSV/Excel file. 🚀")
+st.markdown("Analyze sentiments from text or CSV/Excel file.")
 
-# --- SIDEBAR ---
+# SIDEBAR
 with st.sidebar:
     st.header("About App")
     st.markdown("""
@@ -56,10 +56,10 @@ with st.sidebar:
     - Accuracy: **78.34%**
     """)
 
-# --- INPUT METHOD ---
+# INPUT METHOD
 input_method = st.radio("Choose Input Method:", ("Single Text", "Upload CSV/Excel File"))
 
-# --- SINGLE TEXT ---
+# SINGLE TEXT
 if input_method == "Single Text":
     text_input = st.text_area("Enter tweet text:", height=150)
 
@@ -88,7 +88,7 @@ if input_method == "Single Text":
     elif analyze_button and text_input.strip() == "":
         st.warning("Please enter tweet text before clicking Analyze.")
 
-# --- CSV / EXCEL FILE ---
+# CSV / EXCEL FILE
 elif input_method == "Upload CSV/Excel File":
     uploaded_file = st.file_uploader("Upload CSV or Excel file", type=["csv", "xlsx"])
 
