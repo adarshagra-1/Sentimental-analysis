@@ -47,7 +47,7 @@ with st.sidebar:
     st.markdown("""
     - This app performs **Sentiment Analysis** using a Logistic Regression model.
     - Supports **Single text** or **batch CSV/Excel** file.
-    - Developed by Adarsh.
+    - Developed by Adarsh Agrahari and Karan Singh.
     """)
     st.header("Model Info")
     st.markdown("""

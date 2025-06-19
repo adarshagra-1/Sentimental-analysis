@@ -1,6 +1,6 @@
-pandas
-numpy
-scikit-learn
-nltk
 streamlit
+scikit-learn
+pandas
+nltk
 joblib
+openpyxl
