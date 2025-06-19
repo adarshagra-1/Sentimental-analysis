@@ -54,7 +54,6 @@ Model accuracy: 78.34%
 
 ## Future Enhancements
 Add more ML models (e.g., SVM, XGBoost)
-Deploy on Streamlit Cloud / HuggingFace Spaces
 Add visualizations: WordCloud, sentiment trends over time
 Upload multiple files at once
 
