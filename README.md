@@ -46,6 +46,11 @@ sentiment-analysis/
 ├── requirements.txt
 └── README.md
 
+## Sentiment Analysis App
+ 
+You can access the live app here:(https://adarshagra-1-sentimental-analysis-app-c7jfry.streamlit.app/)
+
+
 ## Model Information
 Model: Logistic Regression
 Vectorization: TF-IDF
