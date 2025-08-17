@@ -24,7 +24,7 @@ Clean and modern UI with color themes
 ## How to Run Locally
 
 ## Clone repo
-git clone https://github.com/your_username/sentiment-analysis.git
+git clone https://github.com/adarshagra-1/sentiment-analysis.git
 cd sentiment-analysis
 
 ## Install dependencies
@@ -64,3 +64,4 @@ Upload multiple files at once
 
 ## Author
 Adarsh Agrahari.
+
