@@ -21,12 +21,14 @@ Clean and modern UI with color themes
 
 ## How to Run Locally
 ## Clone repo
-git clone https://github.com/adarshagra-1/sentiment-analysis.git
-cd sentiment-analysis
+
+`git clone https://github.com/adarshagra-1/sentiment-analysis.git`
+`cd sentiment-analysis`
 
 ## Install dependencies
-python -m venv venv
-venv\Scripts\activate     # Windows
+
+`python -m venv venv`
+`venv\Scripts\activate`     # Windows
 
 Then install requirements:
 pip install -r requirements.txt
@@ -60,5 +62,6 @@ Upload multiple files at once
 
 ## Author
 Adarsh Agrahari.
+
 
 
