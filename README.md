@@ -1,14 +1,12 @@
-# Sentiment Analysis App 💬
+# Sentiment Analysis App
 
 A simple **Sentiment Analysis Web App** using:
-
 - Logistic Regression Classifier
 - TF-IDF Vectorizer
 - NLTK for preprocessing
 - Streamlit for Web UI
 
 ## Features
-
 Analyze sentiment for:
 - Single text input  
 - CSV file upload  
@@ -22,7 +20,6 @@ Shows:
 Clean and modern UI with color themes  
 
 ## How to Run Locally
-
 ## Clone repo
 git clone https://github.com/adarshagra-1/sentiment-analysis.git
 cd sentiment-analysis
@@ -47,7 +44,6 @@ sentiment-analysis/
 └── README.md
 
 ## Sentiment Analysis App
- 
 You can access the live app here:(https://adarshagra-1-sentimental-analysis-app-c7jfry.streamlit.app/)
 
 
@@ -64,4 +60,5 @@ Upload multiple files at once
 
 ## Author
 Adarsh Agrahari.
+
 
