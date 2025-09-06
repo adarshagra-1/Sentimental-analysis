@@ -28,13 +28,15 @@ Clean and modern UI with color themes
 ## Install dependencies
 
 `python -m venv venv`
-`venv\Scripts\activate`     # Windows
+`venv\Scripts\activate`
 
 Then install requirements:
-pip install -r requirements.txt
+
+`pip install -r requirements.txt`
 
 ## Run the Streamlit app
-streamlit run app.py
+
+`streamlit run app.py`
 
 ## Project Structure
 sentiment-analysis/
@@ -47,7 +49,6 @@ sentiment-analysis/
 
 ## Sentiment Analysis App
 You can access the live app here:(https://adarshagra-1-sentimental-analysis-app-c7jfry.streamlit.app/)
-
 
 ## Model Information
 Model: Logistic Regression
@@ -62,6 +63,7 @@ Upload multiple files at once
 
 ## Author
 Adarsh Agrahari.
+
 
 
 
